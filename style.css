@@ -11,13 +11,14 @@ html {
 
 body {
     background-color: #080808;
-    color: #fff;
+    color: #bbb4b4;
+    text-shadow: 2px 2px #080808;
 }
 
 #header {
     width: 100%;
     height: 100vh;
-    background-image: url(img/man-png.png);
+    background-image: url(img/woman-1063100_1920-removebg-preview.png);
     background-size: 85vh, cover;
     background-repeat: no-repeat;
     background-position: right;
@@ -351,7 +352,7 @@ nav .fa-solid {
 }
 @media only screen and (max-width: 600px) {
     #header {
-        background-image: url(img/man-png.png);
+        background-image: url(img/woman-1063100_1920-removebg-preview.png);
         background-position: center;
     }
     .header-text {
